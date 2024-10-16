@@ -81,15 +81,15 @@
 
     //2. Cara 2
 
-    // function single(arr:number[]){
-    //     return arr
-    //     .filter((item, idx, num) => num
-    //     .filter(val => val == item).length == 1)            // val merupakan value
-    // }
-    //     const arr = [4,1,2,1,2,3,2]
+    function single(arr:number[]){
+        return arr
+        .filter((item, idx, num) => num
+        .filter(val => val == item).length == 1)            // val merupakan value
+    }
+        const arr = [4,1,2,1,2,3,2]
 
 
-    //     console.log(single(arr));
+        console.log(single(arr));
 
         
 
